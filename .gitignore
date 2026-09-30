@@ -1,5 +1,9 @@
-*.csv
 *.zip
 tranco_data/
 __pycache__/
 *.pyc
+*.pkl
+.env
+benign_urls.csv
+phishing_urls.csv
+dataset_with_features.csv

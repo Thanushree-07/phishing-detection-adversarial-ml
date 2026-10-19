@@ -142,7 +142,7 @@ def build_model():
 
     classifier = LogisticRegression(
         max_iter=1000,
-        class_weight="balanced",
+        class_weight=None,
         random_state=RANDOM_STATE
     )
 

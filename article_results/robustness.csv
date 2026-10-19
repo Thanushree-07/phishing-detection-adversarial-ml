@@ -1,0 +1,19 @@
+Model,Test,Rate
+LR (19 features),clean phishing (recall),0.6999168744804655
+LR (19 features),digit_substitution (detection rate),0.7689110556940981
+LR (19 features),typo (detection rate),0.6874480465502909
+LR (19 features),homoglyph (detection rate),0.6683291770573566
+LR (19 features),clean legitimate (false-positive rate),0.15748031496062992
+LR (19 features),keyword_stuffing on legitimate (false-positive rate),0.9991251093613298
+GBT (19 features),clean phishing (recall),0.8204488778054863
+GBT (19 features),digit_substitution (detection rate),0.9077306733167082
+GBT (19 features),typo (detection rate),0.8154613466334164
+GBT (19 features),homoglyph (detection rate),0.7946799667497921
+GBT (19 features),clean legitimate (false-positive rate),0.1268591426071741
+GBT (19 features),keyword_stuffing on legitimate (false-positive rate),0.9851268591426072
+TF-IDF + LR (char 3-5),clean phishing (recall),0.9102244389027432
+TF-IDF + LR (char 3-5),digit_substitution (detection rate),0.912718204488778
+TF-IDF + LR (char 3-5),typo (detection rate),0.9110556940980881
+TF-IDF + LR (char 3-5),homoglyph (detection rate),0.5793848711554447
+TF-IDF + LR (char 3-5),clean legitimate (false-positive rate),0.09098862642169729
+TF-IDF + LR (char 3-5),keyword_stuffing on legitimate (false-positive rate),0.9912510936132983
